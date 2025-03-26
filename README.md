@@ -15,3 +15,17 @@ console.log(a / b); // Division: 2
 console.log(a % b); // Modulus (remainder): 0
 console.log(a ** b); // Exponentiation (10^5): 100000
 
+
+
+
+
+// increment & dicrement
+
+let x = 5;
+x++;  // Increases by 1
+console.log(x); // 6
+
+x--;  // Decreases by 1
+console.log(x); // 5
+
+
