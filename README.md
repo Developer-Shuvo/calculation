@@ -29,3 +29,12 @@ x--;  // Decreases by 1
 console.log(x); // 5
 
 
+// ************************************
+let name = "Shuvo"; // String
+const age = 25; // Number
+var isDeveloper = true; // Boolean
+
+console.log(name, age, isDeveloper);
+
+
+
