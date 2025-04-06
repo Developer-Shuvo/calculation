@@ -94,4 +94,30 @@ let result = number - (number * decreasePercent / 100);
 console.log(result); // 85
 
 
+*********************************************************
+🔥 3. Body Mass Index (BMI) Calculator
+js
+Copy
+Edit
+function calculateBMI(weightKg, heightCm) {
+  let heightM = heightCm / 100;
+  return (weightKg / (heightM ** 2)).toFixed(2);
+}
+
+
+********************************************************
+Scroll Progress Indicator
+Dynamic scroll % calculation for any page:
+
+js
+Copy
+Edit
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollPercent = (scrollTop / docHeight) * 100;
+  console.log(`Scroll: ${scrollPercent.toFixed(2)}%`);
+});
+
+
 
