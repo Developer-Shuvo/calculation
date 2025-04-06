@@ -82,4 +82,16 @@ while (j <= 5) {
 
 
 
+********************************************************
+Decrease a number by a percentage
+js
+Copy
+Edit
+let number = 100;
+let decreasePercent = 15;
+
+let result = number - (number * decreasePercent / 100);
+console.log(result); // 85
+
+
 
