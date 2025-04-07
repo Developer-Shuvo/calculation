@@ -147,3 +147,23 @@ switch (day) {
 
 
 
+
+
+
+
+
+🔥 3. Body Mass Index (BMI) Calculator js Copy Edit function calculateBMI(weightKg, heightCm) { let heightM = heightCm / 100; return (weightKg / (heightM ** 2)).toFixed(2); }
+
+Scroll Progress Indicator Dynamic scroll % calculation for any page:
+
+js Copy Edit window.addEventListener('scroll', () => { const scrollTop = window.scrollY; const docHeight = document.documentElement.scrollHeight - window.innerHeight; const scrollPercent = (scrollTop / docHeight) * 100; console.log(Scroll: ${scrollPercent.toFixed(2)}%); });
+
+/Score****/
+
+let score = 85;
+
+if (score >= 90) { console.log("Grade: A"); } else if (score >= 80) { console.log("Grade: B"); } else { console.log("Grade: C"); }
+
+// Using Switch let day = "Monday"; switch (day) { case "Monday": console.log("Start of the week!"); break; case "Friday": console.log("Weekend is near!"); break; default: console.log("A normal day."); }
+
+
