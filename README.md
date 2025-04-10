@@ -226,5 +226,21 @@ x--; // Decreases by 1 console.log(x); // 5
 let result = number - (number * decreasePercent / 100); console.log(result); // 85
 
 
+___________________________________________________________________________________________________________
+/Score****/
+
+let score = 85;
+
+if (score >= 90) { console.log("Grade: A"); } else if (score >= 80) { console.log("Grade: B"); } else { console.log("Grade: C"); }
+
+// Using Switch let day = "Monday"; switch (day) { case "Monday": console.log("Start of the week!"); break; case "Friday": console.log("Weekend is near!"); break; default: console.log("A normal day."); }
+
+//For & wile loops***// // For Loop for (let i = 1; i <= 5; i++) { console.log("Number:", i); }
+
+// While Loop let j = 1; while (j <= 5) { console.log("While Loop:", j); j++; }
+
+
+
+
 
 
