@@ -203,6 +203,26 @@ if (score >= 90) { console.log("Grade: A"); } else if (score >= 80) { console.lo
 
 Decrease a number by a percentage js Copy Edit let number = 100; let decreasePercent = 15;
 
+
+
+
+
+
+________________________________________________________________________________________________________
+Normal_Calculation
+
+console.log ("Problem solving")
+
+// Basic of calculation let a = 10; let b = 5;
+
+console.log(a + b); // Addition: 15 console.log(a - b); // Subtraction: 5 console.log(a * b); // Multiplication: 50 console.log(a / b); // Division: 2 console.log(a % b); // Modulus (remainder): 0 console.log(a ** b); // Exponentiation (10^5): 100000
+
+// increment & dicrement
+
+let x = 5; x++; // Increases by 1 console.log(x); // 6
+
+x--; // Decreases by 1 console.log(x); // 5
+
 let result = number - (number * decreasePercent / 100); console.log(result); // 85
 
 
